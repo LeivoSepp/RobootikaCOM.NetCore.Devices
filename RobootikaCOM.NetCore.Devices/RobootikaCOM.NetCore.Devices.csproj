@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Leivo Sepp</Authors>
+    <Owner>Leivo Sepp</Owner>
+    <Company>RobootikaCOM</Company>
+    <Title>Sensors library for .NET Core</Title>
+    <Product>Sensors library for .NET Core</Product>
+    <PackageProjectUrl>https://github.com/LeivoSepp/RobootikaCOM.NetCore.Devices</PackageProjectUrl>
+    <Description>Use this library in your .NET Core project to communicate with the sensors. Adafruit light sensor TSL2561. Adafruit I2C Barometric Pressure Temperature sensor MPL115A2.</Description>
+    <PackageReleaseNotes>Initial release. Lets hope it works.</PackageReleaseNotes>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageTags>tsl2561 lightsensor library light sensor adafruit netcore core MPL115A2 barometric pressure temperature</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Device.Gpio" Version="0.1.0-prerelease.19376.1" />
+  </ItemGroup>
+
+</Project>
